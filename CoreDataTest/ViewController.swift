@@ -12,7 +12,7 @@ import CoreData
 
 class ViewController: UITableViewController {
     
-    var listItems  = [NSManagedObject]()
+    var listItems  = [ListEntity]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +22,7 @@ class ViewController: UITableViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        // Dispose of any resou rces that can be recreated.
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -34,7 +34,7 @@ class ViewController: UITableViewController {
         do {
             
             let results = try managedContex.executeFetchRequest(fetchRequest)
-            listItems = results as! [NSManagedObject]
+            listItems = results as! [ListEntity]
             self.tableView.reloadData()
             
         } catch {
@@ -86,7 +86,7 @@ class ViewController: UITableViewController {
         
         
         let entity = NSEntityDescription.entityForName("ListEntity", inManagedObjectContext: managedContex)
-        let item = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContex)
+        let item = ListEntity(entity: entity!, insertIntoManagedObjectContext: managedContex)
         
         item.setValue(itemToSave, forKey: "item")
         
@@ -104,6 +104,7 @@ class ViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return listItems.count
+        
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -111,7 +112,7 @@ class ViewController: UITableViewController {
         
         let item = listItems[indexPath.row]
         
-        cell.textLabel?.text = item.valueForKey("item") as? String
+        cell.textLabel?.text = item.item
         cell.textLabel?.font = UIFont(name: "", size: 25)
         
         return cell

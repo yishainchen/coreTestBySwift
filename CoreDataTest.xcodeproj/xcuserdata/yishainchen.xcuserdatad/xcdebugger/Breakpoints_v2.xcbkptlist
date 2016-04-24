@@ -2,4 +2,163 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreDataTest/ViewController.swift"
+            timestampString = "482985194.359614"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "saveItem(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreDataTest/ViewController.swift"
+            timestampString = "482985870.943391"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreDataTest/ViewController.swift"
+            timestampString = "482985911.51426"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoreDataTest.ViewController.listItems.getter : Swift.Array&lt;CoreDataTest.ListEntity&gt;"
+                  moduleName = "CoreDataTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yishainchen/Desktop/%E7%B4%A0%E6%9D%90/%E8%AE%80%E6%9B%B8%E6%9C%83%EF%BC%A1%EF%BC%A3/CoreData%3CNew%3E/CoreDataTest/ViewController.swift"
+                  timestampString = "482985911.516904"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "38">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoreDataTest.ViewController.listItems.setter : Swift.Array&lt;CoreDataTest.ListEntity&gt;"
+                  moduleName = "CoreDataTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yishainchen/Desktop/%E7%B4%A0%E6%9D%90/%E8%AE%80%E6%9B%B8%E6%9C%83%EF%BC%A1%EF%BC%A3/CoreData%3CNew%3E/CoreDataTest/ViewController.swift"
+                  timestampString = "482985911.51705"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoreDataTest.ViewController.init (style : __C.UITableViewStyle) -&gt; CoreDataTest.ViewController"
+                  moduleName = "CoreDataTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yishainchen/Desktop/%E7%B4%A0%E6%9D%90/%E8%AE%80%E6%9B%B8%E6%9C%83%EF%BC%A1%EF%BC%A3/CoreData%3CNew%3E/CoreDataTest/ViewController.swift"
+                  timestampString = "482985911.517158"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoreDataTest.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; CoreDataTest.ViewController"
+                  moduleName = "CoreDataTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yishainchen/Desktop/%E7%B4%A0%E6%9D%90/%E8%AE%80%E6%9B%B8%E6%9C%83%EF%BC%A1%EF%BC%A3/CoreData%3CNew%3E/CoreDataTest/ViewController.swift"
+                  timestampString = "482985911.517269"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoreDataTest.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;CoreDataTest.ViewController&gt;"
+                  moduleName = "CoreDataTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yishainchen/Desktop/%E7%B4%A0%E6%9D%90/%E8%AE%80%E6%9B%B8%E6%9C%83%EF%BC%A1%EF%BC%A3/CoreData%3CNew%3E/CoreDataTest/ViewController.swift"
+                  timestampString = "482985911.517371"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreDataTest/ViewController.swift"
+            timestampString = "482985917.114494"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreDataTest/ViewController.swift"
+            timestampString = "483096400.435375"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220F94711CC4D115000B7F79 /* ListEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220F946F1CC4D115000B7F79 /* ListEntity+CoreDataProperties.swift */; };
+		220F94721CC4D115000B7F79 /* ListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220F94701CC4D115000B7F79 /* ListEntity.swift */; };
 		224849261CA7DC2700AAE786 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224849251CA7DC2700AAE786 /* TableViewController.swift */; };
 		224849281CA7DC6600AAE786 /* PatternCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224849271CA7DC6600AAE786 /* PatternCell.swift */; };
-		224F1DCC1CA7C4E100304F92 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224F1DCB1CA7C4E100304F92 /* ImageViewController.swift */; };
 		22FBB8E21C9EF53D0071DAFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FBB8E11C9EF53D0071DAFC /* AppDelegate.swift */; };
 		22FBB8E41C9EF53D0071DAFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FBB8E31C9EF53D0071DAFC /* ViewController.swift */; };
 		22FBB8E71C9EF53D0071DAFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FBB8E51C9EF53D0071DAFC /* Main.storyboard */; };
@@ -19,9 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		220F946F1CC4D115000B7F79 /* ListEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		220F94701CC4D115000B7F79 /* ListEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEntity.swift; sourceTree = "<group>"; };
 		224849251CA7DC2700AAE786 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		224849271CA7DC6600AAE786 /* PatternCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternCell.swift; sourceTree = "<group>"; };
-		224F1DCB1CA7C4E100304F92 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		22FBB8DE1C9EF53D0071DAFC /* CoreDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FBB8E11C9EF53D0071DAFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22FBB8E31C9EF53D0071DAFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,11 +64,12 @@
 		22FBB8E01C9EF53D0071DAFC /* CoreDataTest */ = {
 			isa = PBXGroup;
 			children = (
+				220F946F1CC4D115000B7F79 /* ListEntity+CoreDataProperties.swift */,
+				220F94701CC4D115000B7F79 /* ListEntity.swift */,
 				22FBB8E11C9EF53D0071DAFC /* AppDelegate.swift */,
 				22FBB8E31C9EF53D0071DAFC /* ViewController.swift */,
 				224849251CA7DC2700AAE786 /* TableViewController.swift */,
 				224849271CA7DC6600AAE786 /* PatternCell.swift */,
-				224F1DCB1CA7C4E100304F92 /* ImageViewController.swift */,
 				22FBB8E51C9EF53D0071DAFC /* Main.storyboard */,
 				22FBB8EB1C9EF53D0071DAFC /* Assets.xcassets */,
 				22FBB8ED1C9EF53D0071DAFC /* LaunchScreen.storyboard */,
@@ -149,7 +152,8 @@
 			files = (
 				22FBB8E41C9EF53D0071DAFC /* ViewController.swift in Sources */,
 				22FBB8EA1C9EF53D0071DAFC /* CoreDataTest.xcdatamodeld in Sources */,
-				224F1DCC1CA7C4E100304F92 /* ImageViewController.swift in Sources */,
+				220F94711CC4D115000B7F79 /* ListEntity+CoreDataProperties.swift in Sources */,
+				220F94721CC4D115000B7F79 /* ListEntity.swift in Sources */,
 				224849261CA7DC2700AAE786 /* TableViewController.swift in Sources */,
 				224849281CA7DC6600AAE786 /* PatternCell.swift in Sources */,
 				22FBB8E21C9EF53D0071DAFC /* AppDelegate.swift in Sources */,
