@@ -9,14 +9,15 @@
 import UIKit
 import CoreData
 
+
 class ViewController: UITableViewController {
     
     var listItems  = [NSManagedObject]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Add, target: self, action: Selector("addItem"))
+    
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Add, target: self, action: #selector(ViewController.addItem))
     }
     
     override func didReceiveMemoryWarning() {
@@ -37,26 +38,13 @@ class ViewController: UITableViewController {
             self.tableView.reloadData()
             
         } catch {
-            
-            
+    
             print("error")
-            
         }
         
     }
     
-    //    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-    //
-    //        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-    //        let managedContex = appDelegate.managedObjectContext
-    //
-    //        managedContex.deleteObject(listItems[indexPath.row])
-    //        listItems.removeAtIndex(indexPath.row)
-    //
-    //        self.tableView.reloadData()
-    //
-    //    }
-    
+
     
     func addItem() {
         
@@ -91,8 +79,11 @@ class ViewController: UITableViewController {
     
     func saveItem(itemToSave: String) {
         
+      
+        
         let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         let managedContex = appDelegate.managedObjectContext
+        
         
         let entity = NSEntityDescription.entityForName("ListEntity", inManagedObjectContext: managedContex)
         let item = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContex)
@@ -100,16 +91,11 @@ class ViewController: UITableViewController {
         item.setValue(itemToSave, forKey: "item")
         
         do {
-            
             try managedContex.save()
             listItems.append(item)
-            
         } catch {
-            
             print("error")
-            
         }
-        
     }
     
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
